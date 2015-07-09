@@ -1,0 +1,9 @@
+{
+  "name": "ru.andrey96.music_hotkeys",
+  "description": "Native Messaging Host for multimedia hotkeys and track name displaying",
+  "path": "MusicHotkeys.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://mphddpmlgjdkmaokpcbailheefgknmih/"
+  ]
+}
