@@ -1,17 +1,17 @@
 {
-    websites: [
+    "websites": [
         {
-            url: "vk.com/audios",
-            pressPlay: "$('#ac_play').click();",
-            pressNext: "$('#ac_next').click();",
-            pressPrev: "$('#ac_prev').click();",
-            getName: "return document.getElementById('ac_performer').innerHTML+' - '+document.getElementById('ac_title').innerHTML;"
+            "url": "vk.com/audios",
+            "pressPlay": "$('#ac_play').click();",
+            "pressNext": "$('#ac_next').click();",
+            "pressPrev": "$('#ac_prev').click();",
+            "getName": "return document.getElementById('ac_performer').innerHTML+' - '+document.getElementById('ac_title').innerHTML;"
         },
         {
-            url: "music.yandex.ru",
-            pressPlay: "$('.player-controls__btn_play').click();",
-            pressNext: "$('.player-controls__btn_next').click();",
-            pressPrev: "$('.player-controls__btn_prev').click();"
+            "url": "music.yandex.ru",
+            "pressPlay": "$('.player-controls__btn_play').click();",
+            "pressNext": "$('.player-controls__btn_next').click();",
+            "pressPrev": "$('.player-controls__btn_prev').click();"
         }
     ]
 }
