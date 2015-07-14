@@ -11,7 +11,8 @@
             "url": "music.yandex.ru",
             "pressPlay": "$('.player-controls__btn_play').click();",
             "pressNext": "$('.player-controls__btn_next').click();",
-            "pressPrev": "$('.player-controls__btn_prev').click();"
+            "pressPrev": "$('.player-controls__btn_prev').click();",
+            "getName": "return document.getElementsByTagName('title')[0].innerHTML;"
         }
     ]
 }
